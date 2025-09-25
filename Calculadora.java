@@ -1,8 +1,6 @@
 package Calculadora1;
 
-public class main {
+public class Calculadora{
 
-
-    
     
 }
