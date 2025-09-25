@@ -1,5 +1,5 @@
 package Calculadora1;
-
+import java.util.Scanner;
 public class Calculadora{
 
 
@@ -27,6 +27,8 @@ public class Calculadora{
 
 
 
+<<<<<<< HEAD
+=======
 
 
 
@@ -77,5 +79,6 @@ public class Calculadora{
 
 
 
+>>>>>>> d60652064edb4d2f30c2c4aeff06c52e56d52183
     
 }
