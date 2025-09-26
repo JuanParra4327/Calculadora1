@@ -48,5 +48,23 @@ public class Calculadora{
 		return resultado;
 	}
 
+	public double suma (double a, double b){
+		double resultado = 0.0;
 
+		resultado = a + b;
+		System.out.println("El resultado es: "+ resultado);
+		return resultado;
+	}
+
+	public double division (double a, double b){
+		double resultado = 0.0;
+
+		if(b == 0){
+			System.out.println("No es posible dividir entre 0");
+		}else{
+			resultado = a / b;
+			System.out.println("El resultado es: "+ resultado);
+		}
+		return resultado;
+	}
 }
