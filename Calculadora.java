@@ -48,7 +48,7 @@ public class Calculadora{
 		return resultado;
 	}
 
-	public double suma (double a, double b){
+		public double suma (double a, double b){
 		double resultado = 0.0;
 
 		resultado = a + b;
