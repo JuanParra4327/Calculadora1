@@ -1,5 +1,4 @@
 package Calculadora1;
-import java.util.Scanner;
 import java.math;
 public class Calculadora{
     
