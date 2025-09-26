@@ -31,4 +31,22 @@ public class Calculadora{
 		System.out.println("El resultado es: " + resultado);
         return resultado;
     }
+
+	public double resta (double a, double b){
+		double resultado = 0.0;
+
+		resultado = a - b;
+		System.out.println("El resultado es: " + resultado);
+		return resultado;
+	}
+
+	public double multiplicacion (double a, double b){
+		double resultado = 0.0;
+
+		resultado = a*b;
+		System.out.println("El resultado es: " + resultado);
+		return resultado;
+	}
+
+
 }
