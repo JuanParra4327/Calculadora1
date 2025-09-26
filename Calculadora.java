@@ -1,84 +1,34 @@
 package Calculadora1;
 import java.util.Scanner;
+import java.math;
 public class Calculadora{
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<<<<<<< HEAD
-=======
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
->>>>>>> d60652064edb4d2f30c2c4aeff06c52e56d52183
     
+    public double exponente (double a, double b) {
+		double resultado = 1;
+		for (int i = 0; i < b; i++) {
+			resultado *= a;
+		}
+		System.out.println("El resultado es: " + resultado);
+		return resultado;
+	}
+	
+	public double raiz (double a) {
+		double resultado = 0.0;
+		if (a < 0) {
+			System.out.println("Ingrese números positivos");
+		} else {
+			resultado = Math.sqrt(a);
+		}
+		System.out.println("El resultado es: " + resultado);
+		return resultado;
+	}
+
+    public double factorial (double a){
+        double resultado = 1;
+		for (int i = 1; i < a+1; i++) {
+			resultado *= i;
+		} 
+		System.out.println("El resultado es: " + resultado);
+        return resultado;
+    }
 }
