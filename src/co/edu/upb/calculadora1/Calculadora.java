@@ -1,7 +1,5 @@
-package Calculadora1;
-import java.math;
+package co.edu.upb.calculadora1;
 public class Calculadora{
-    
 	public double suma (double a, double b){
 		double resultado = 0.0;
 

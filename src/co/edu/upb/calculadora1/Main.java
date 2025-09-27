@@ -1,12 +1,12 @@
-package Calculadora1;
+package co.edu.upb.calculadora1;
 import java.util.Scanner;
 
-public class main {
+public class Main {
     public static void main(String[] args) {
         int num;
+        Calculadora calculadora = new Calculadora();
         do {
             Scanner scanner = new Scanner(System.in);
-            Calculadora calculadora = new Calculadora();
             System.out.println("Menu: ");
             System.out.println("1. Suma");
             System.out.println("2. Resta");
@@ -15,7 +15,7 @@ public class main {
             System.out.println("5. Exponente");
             System.out.println("6. Raiz");
             System.out.println("7. Factorial");
-            System.out.println("\nIngrese un numero: ");
+            System.out.println("\nIngrese una opción: ");
             num = scanner.nextInt();
         } while (num<1 && num>7);
 
@@ -27,17 +27,15 @@ public class main {
             a = scanner2.nextInt();
             Scanner scanner3 = new Scanner(System.in);
             b = scanner3.nextInt();
-            if (num == 1) {
 
-            } else if (num == 2) {
-                
-            } else if (num == 3) {
-                
-            } else if (num == 4) {
-                
-            } else if (num == 5) {
-                
-            }
+            switch (num) {
+                case 1:
+                    calculadora.suma(a, b);
+
+                case 2:
+                    calculadora.resta(a, b);
+
+            } 
         } else {
 
         }
