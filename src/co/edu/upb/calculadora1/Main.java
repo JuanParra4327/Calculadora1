@@ -15,14 +15,14 @@ public class Main {
             System.out.println("5. Exponente");
             System.out.println("6. Raiz");
             System.out.println("7. Factorial");
-            System.out.println("\nIngrese una opción: ");
+            System.out.println("\nIngrese una opcion: ");
             num = scanner.nextInt();
         } while (num<1 && num>7);
 
         if (num == 1 || num == 2 || num == 3 || num == 4 || num == 5) {
             int a;
             int b;
-            System.out.println("Ingrese dos números: ");
+            System.out.println("Ingrese dos numeros: ");
             Scanner scanner2 = new Scanner(System.in);
             a = scanner2.nextInt();
             Scanner scanner3 = new Scanner(System.in);
@@ -36,12 +36,27 @@ public class Main {
                     calculadora.resta(a, b);
                     break;
                 case 3:
-                    calculadora.multiplicacion(a,b);
+                    calculadora.multiplicacion(a, b);
                      break;
-
+                case 4: 
+                    calculadora.division(a, b);
+                    break;
+                case 5:
+                    calculadora.exponente;
+                    break;
             } 
         } else {
-
+            int a;
+            System.out.println("Ingrese un numero: ");
+            Scanner scanner4 = new Scanner(System.in);
+            a = scanner4.nextInt();
+            switch (num) {
+                case 6:
+                    calculadora.raiz(a);
+                    break;
+                case 7:
+                    calculadora.factorial(a);
+                    break;
         }
     }
 }
