@@ -57,6 +57,7 @@ public class Main {
                 case 7:
                     calculadora.factorial(a);
                     break;
+            }
         }
     }
 }
